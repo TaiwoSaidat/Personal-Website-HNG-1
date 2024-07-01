@@ -8,13 +8,64 @@
     <title>HNG Stage 1 Task</title>
 
 </head>
+
 <body>
-    <div>
-        my name is TaiwoSaidat
-    </div>
+    <header>
+        <div class="header"><h1>Personal Website</h1></div>
+    </header>
+
+    <main>
+        <div class="profile">
+            <h2>My Profile</h2>
+
+            <!-- image will be beside details -->
+            <div class="image" >
+                <!-- remove width and height!!!!!!!!!!!!!!!!!!!!!!!!!!!!1 and change picture!!!!!!!!!!!!!!!! -->
+                <img src="./assets/taiwo2.png" data-testid="slackProfilePicture" alt="" >
+            </div>
+            
+            <div class="details"> 
+                <!-- <h2>About me</h2> -->
+                <!-- data-id -->
+                <p class="displayName" data-testid="slackDisplayName">Slack Name: TaiwoSaidat</p> 
+                <p class="email" data-testid="slackEmail">oyewaletaiwo1803@gmail.com</p> 
+                <p class="currTime" data-testid="currentTimeUTC">12:41pm</p> 
+                <p class="currDay" data-testid="currentDay">Monday</p> 
+
+            </div>
+        </div>
+        <!-- goals -->
+        <div class="goals">
+            <h2>Short term goals </h2>
+            <h4>Duration: 2 years</h4>
+            <ul>
+                <li>You will create and host a simple single-page website outlining your goals for the next 2 years in the tech field.</li>
+                <li>The website should be visually appealing, mobile-friendly, and utilize HTML, CSS and JavaScript only.</li>                    <li>Each required element should have a specified data-testid attribute for easy identification and testing.</li>
+            </ul>
+        </div>
+
+        <!-- relevant links -->
+         <div class="links">
+            <h2>Explore further links</h2>
+            <ul>
+                <li rel="noreferrer" target="_blank" data-testid="hngLink" > <a href="https://hng.tech/learn">HNG Learning</a> </li>
+                <li rel="noreferrer" target="_blank" data-testid="keywordLink" > <a href="https://keyword.dog">Keywords</a> </li>
+                <li rel="noreferrer" target="_blank" data-testid="scrapeanywebLink" > <a href="https://scrapeanyweb.site">Scrape any Web</a> </li>
+
+            </ul>
+         </div>
+    </main>
+
+    <footer>
+        
+    </footer>
+
+    <script src="script.js">
+
+    </script>
+    
 </body>
 
-<script src="script.js">
 
-</script>
+
 </html>

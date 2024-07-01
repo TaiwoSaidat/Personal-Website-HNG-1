@@ -50,4 +50,10 @@
   
   /* end of reset styles */
 
+div{
+    border: 2px solid red;
+}
 
+/* .goals{
+    width: 50%;
+} */
