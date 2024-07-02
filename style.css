@@ -51,7 +51,7 @@
 
 header, footer{
     text-align: center;
-    background-color: #283618;
+    background-color: #e1781c;
     color: #fff;
     padding: 1rem;
 }
@@ -67,7 +67,7 @@ main{
     text-align: center;
     background-color: #e29578;
     box-shadow: 0 10px 15px rgb(0 0 0 / 0.2);
-    border: 2px solid #bc6c25;
+    border: 2px solid #e29578;
     border-radius: 25px;
 }
 
