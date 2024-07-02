@@ -48,14 +48,15 @@ main{
 
 .profile, .goals, .links{
     margin-bottom: 2rem;
+    padding: 20px;
     text-align: center;
     background-color: #e29578;
     box-shadow: 0 10px 15px rgb(0 0 0 / 0.2);
     border: 2px solid #e29578;
     border-radius: 25px;
 }
-.profile{
-    gap: 3px;
+.goals{
+    gap: 50px;
 }
 
 ul {
