@@ -1,6 +1,6 @@
 function updateDateTime() { 
     const now = new Date(); 
-    const currentTimeUTC = now.toUTCString(); 
+    const currentTimeUTC = now.toUTCString().slice(17, 25); // Extract UTC time in 24-hour format 
     const currentDay = now.toLocaleDateString('en-US', { weekday: 'long' }); 
   document.querySelector('[data-testid="currentTimeUTC"]').textContent = currentTimeUTC; 
     document.querySelector('[data-testid="currentDay"]').textContent = currentDay; 
