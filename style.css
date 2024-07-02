@@ -10,8 +10,10 @@
     2. Remove default margin
   */
   * {
+    box-sizing: border-box;
     margin: 0;
-    background-color: antiquewhite;
+    padding: 0;
+    
   }
   /*
     Typographic tweaks!
@@ -21,13 +23,8 @@
   body {
     line-height: 1.5;
     -webkit-font-smoothing: antialiased;
-  }
-  /*
-    5. Improve media defaults
-  */
-  img, picture, video, canvas, svg {
-    display: block;
-    max-width: 100%;
+    font-family: Arial, sans-serif;
+    background-color: antiquewhite;
   }
   /*
     6. Remove built-in form typography styles
@@ -50,10 +47,42 @@
   
   /* end of reset styles */
 
-div{
-    border: 2px solid red;
+
+
+header, footer{
+    text-align: center;
+    background-color: #283618;
+    color: #fff;
+    padding: 1rem;
 }
 
-/* .goals{
-    width: 50%;
-} */
+main{
+    max-width: 800px;
+    margin:0 auto;
+    padding: 2rem;
+}
+
+.profile, .goals, .links{
+    margin-bottom: 2rem;
+    text-align: center;
+    background-color: #e29578;
+    box-shadow: 0 10px 15px rgb(0 0 0 / 0.2);
+    border: 2px solid #bc6c25;
+    border-radius: 25px;
+}
+
+ul {
+    list-style-type: none;
+  }
+
+a {
+    display: block;
+    margin-bottom: 0.5rem;
+    color: #007bff;
+    text-decoration: none;
+}
+
+a:hover{
+    text-decoration: underline;
+
+}
