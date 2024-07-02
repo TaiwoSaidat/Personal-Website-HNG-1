@@ -45,6 +45,10 @@ main{
     margin:0 auto;
     padding: 2rem;
 }
+#heading{
+    margin: 1rem;
+    color: antiquewhite;
+}
 
 .profile, .goals, .links{
     margin-bottom: 2rem;
@@ -56,7 +60,7 @@ main{
     border-radius: 25px;
 }
 .goals{
-    gap: 50px;
+    gap: 5px;
 }
 
 ul {
